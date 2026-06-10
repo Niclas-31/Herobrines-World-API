@@ -1,6 +1,5 @@
 package de.niclasl.hw_api;
 
-import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
@@ -9,7 +8,7 @@ import net.neoforged.fml.config.ModConfig;
 public class HerobrinesWorldAPI {
     public static final String MOD_ID = "herobrines_world_api";
 
-    public HerobrinesWorldAPI(IEventBus modEventBus, ModContainer modContainer) {
+    public HerobrinesWorldAPI(ModContainer modContainer) {
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 }

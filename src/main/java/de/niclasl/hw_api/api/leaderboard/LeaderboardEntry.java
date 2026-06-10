@@ -1,4 +1,6 @@
 package de.niclasl.hw_api.api.leaderboard;
 
-public class LeaderboardEntry {
+import java.util.UUID;
+
+public record LeaderboardEntry(UUID player, String playerName, int value, int rank) {
 }
