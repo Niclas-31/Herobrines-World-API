@@ -1,4 +1,4 @@
-package de.niclasl.api;
+package de.niclasl.hw_api;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;

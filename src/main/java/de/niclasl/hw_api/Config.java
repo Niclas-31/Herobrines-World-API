@@ -1,4 +1,4 @@
-package de.niclasl.api;
+package de.niclasl.hw_api;
 
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.common.ModConfigSpec;
