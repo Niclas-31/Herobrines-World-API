@@ -1,6 +1,6 @@
-package de.niclasl.hw_api.event;
+package de.niclasl.herobrines_world_api.event;
 
-import de.niclasl.hw_api.api.leaderboard.LeaderboardEntry;
+import de.niclasl.herobrines_world_api.api.leaderboard.LeaderboardEntry;
 import net.neoforged.bus.api.Event;
 
 public class LeaderboardUpdateEvent extends Event {

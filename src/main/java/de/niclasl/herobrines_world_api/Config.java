@@ -1,4 +1,4 @@
-package de.niclasl.hw_api;
+package de.niclasl.herobrines_world_api;
 
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.common.ModConfigSpec;

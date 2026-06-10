@@ -1,7 +1,7 @@
-package de.niclasl.hw_api.api.access;
+package de.niclasl.herobrines_world_api.api.access;
 
 import com.mojang.serialization.Codec;
-import de.niclasl.hw_api.registry.HWRegistries;
+import de.niclasl.herobrines_world_api.registry.HWRegistries;
 import net.minecraft.resources.Identifier;
 
 public interface AccessMode {

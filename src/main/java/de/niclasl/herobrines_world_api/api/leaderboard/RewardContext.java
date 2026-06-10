@@ -1,4 +1,4 @@
-package de.niclasl.hw_api.api.leaderboard;
+package de.niclasl.herobrines_world_api.api.leaderboard;
 
 import net.minecraft.server.level.ServerPlayer;
 

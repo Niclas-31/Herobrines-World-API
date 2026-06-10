@@ -1,6 +1,6 @@
-package de.niclasl.hw_api.event;
+package de.niclasl.herobrines_world_api.event;
 
-import de.niclasl.hw_api.api.access.AccessMode;
+import de.niclasl.herobrines_world_api.api.access.AccessMode;
 import net.minecraft.world.entity.player.Player;
 import net.neoforged.bus.api.Event;
 import net.neoforged.bus.api.ICancellableEvent;

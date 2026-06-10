@@ -1,7 +1,7 @@
-package de.niclasl.hw_api.registry;
+package de.niclasl.herobrines_world_api.registry;
 
-import de.niclasl.hw_api.api.access.AccessMode;
-import de.niclasl.hw_api.api.transfer.TransferMode;
+import de.niclasl.herobrines_world_api.api.access.AccessMode;
+import de.niclasl.herobrines_world_api.api.transfer.TransferMode;
 import net.minecraft.resources.Identifier;
 
 import java.util.HashMap;

@@ -1,7 +1,7 @@
-package de.niclasl.hw_api.api.transfer;
+package de.niclasl.herobrines_world_api.api.transfer;
 
 import com.mojang.serialization.Codec;
-import de.niclasl.hw_api.registry.HWRegistries;
+import de.niclasl.herobrines_world_api.registry.HWRegistries;
 import net.minecraft.resources.Identifier;
 
 public interface TransferMode {

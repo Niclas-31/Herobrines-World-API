@@ -1,4 +1,4 @@
-package de.niclasl.hw_api.api.transfer.wrapper;
+package de.niclasl.herobrines_world_api.api.transfer.wrapper;
 
 import net.minecraft.world.item.ItemStack;
 

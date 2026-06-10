@@ -1,6 +1,6 @@
-package de.niclasl.hw_api.api.transfer.resolver;
+package de.niclasl.herobrines_world_api.api.transfer.resolver;
 
-import de.niclasl.hw_api.api.transfer.wrapper.InventoryWrapper;
+import de.niclasl.herobrines_world_api.api.transfer.wrapper.InventoryWrapper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.level.ServerLevel;

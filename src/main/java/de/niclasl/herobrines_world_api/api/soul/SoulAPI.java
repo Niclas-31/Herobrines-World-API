@@ -1,4 +1,4 @@
-package de.niclasl.hw_api.api.soul;
+package de.niclasl.herobrines_world_api.api.soul;
 
 import java.util.UUID;
 
