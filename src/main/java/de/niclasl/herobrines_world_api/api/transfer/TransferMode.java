@@ -5,7 +5,7 @@ import de.niclasl.herobrines_world_api.registry.HWRegistries;
 import net.minecraft.resources.Identifier;
 
 public interface TransferMode {
-    public static final Codec<TransferMode> CODEC =
+    Codec<TransferMode> CODEC =
             Identifier.CODEC.xmap(
                     HWRegistries.TRANSFER_MODES::get,
                     TransferMode::id

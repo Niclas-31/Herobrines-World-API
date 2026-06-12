@@ -7,9 +7,5 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 
 public interface InventoryResolver {
-    InventoryWrapper resolve(
-            ServerLevel level,
-            BlockPos pos,
-            ResourceKey<Level> dimension
-    );
+    InventoryWrapper resolve(ServerLevel level, BlockPos pos, ResourceKey<Level> dimension);
 }

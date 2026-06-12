@@ -1,18 +1,15 @@
 package de.niclasl.herobrines_world_api.api.transfer;
 
-import de.niclasl.herobrines_world_api.api.transfer.wrapper.InventoryWrapper;
-import net.minecraft.world.item.ItemStack;
+import de.niclasl.herobrines_world_api.api.transfer.resolver.InventoryResolver;
 
-public interface TransferAPI {
-    void transfer(
-            InventoryWrapper source,
-            InventoryWrapper target,
-            TransferMode mode,
-            int maxSlots
-    );
+public final class TransferAPI {
+    private static InventoryResolver resolver;
 
-    ItemStack insertInto(
-            InventoryWrapper target,
-            ItemStack stack
-    );
+    public static void setResolver(InventoryResolver resolver) {
+        TransferAPI.resolver = resolver;
+    }
+
+    public static InventoryResolver resolver() {
+        return resolver;
+    }
 }
