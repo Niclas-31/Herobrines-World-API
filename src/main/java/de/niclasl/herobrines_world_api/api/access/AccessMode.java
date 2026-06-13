@@ -15,4 +15,6 @@ public interface AccessMode {
             );
 
     @NotNull Identifier id();
+
+    int priority();
 }

@@ -13,4 +13,6 @@ public interface TransferMode {
             );
 
     @NotNull Identifier id();
+
+    int priority();
 }
