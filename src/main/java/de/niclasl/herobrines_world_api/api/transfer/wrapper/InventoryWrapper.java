@@ -10,7 +10,5 @@ public interface InventoryWrapper {
 
     void set(int slot, ItemStack stack);
 
-    default boolean canAccept(ItemStack stack) {
-        return true;
-    }
+    boolean canAccept(ItemStack stack);
 }
