@@ -2,5 +2,9 @@ package de.niclasl.herobrines_world_api.api.leaderboard;
 
 import java.util.UUID;
 
-public record LeaderboardEntry(UUID player, String playerName, int value) {
+public record LeaderboardEntry(UUID player, String playerName, int value, int level) {
+
+    public  LeaderboardEntry(UUID player, String playerName, int value) {
+        this(player, playerName, value, 0);
+    }
 }
