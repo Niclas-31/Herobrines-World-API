@@ -5,14 +5,11 @@ import de.niclasl.herobrines_world_api.api.transfer.resolver.InventoryResolver;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 
 public class TransferAPI {
     private static final List<InventoryResolver> RESOLVERS = new ArrayList<>();
 
     public static void registerResolver(InventoryResolver resolver) {
-        Objects.requireNonNull(resolver, "resolver");
-
         for (InventoryResolver registered : RESOLVERS) {
             if (registered.getClass() == resolver.getClass()) {
                 throw new IllegalStateException(
