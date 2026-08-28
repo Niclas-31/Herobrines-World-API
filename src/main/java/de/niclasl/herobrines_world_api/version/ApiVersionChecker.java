@@ -15,7 +15,7 @@ public class ApiVersionChecker {
     private static final String VERSION_URL = "https://raw.githubusercontent.com/Niclas-31/Herobrines-World-API/main/src/main/resources/api_versions.json";
 
     public static void check(Logger logger) {
-        logger.info("Starting Voltrix API version checker...");
+        logger.info("Starting Herobrines World API version checker...");
 
         CompletableFuture.runAsync(() -> {
             try {
