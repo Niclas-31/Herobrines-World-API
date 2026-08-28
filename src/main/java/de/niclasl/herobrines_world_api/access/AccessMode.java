@@ -1,15 +1,15 @@
-package de.niclasl.herobrines_world_api.api.transfer;
+package de.niclasl.herobrines_world_api.access;
 
 import com.mojang.serialization.Codec;
 import de.niclasl.herobrines_world_api.registry.HWRegistries;
 import net.minecraft.resources.Identifier;
 import org.jetbrains.annotations.NotNull;
 
-public interface TransferMode {
-    Codec<TransferMode> CODEC =
+public interface AccessMode {
+    Codec<AccessMode> CODEC =
             Identifier.CODEC.xmap(
-                    HWRegistries.TRANSFER_MODES::get,
-                    TransferMode::id
+                    HWRegistries.ACCESS_MODES::get,
+                    AccessMode::id
             );
 
     @NotNull Identifier id();

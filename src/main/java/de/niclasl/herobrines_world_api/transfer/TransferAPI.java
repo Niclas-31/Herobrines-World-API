@@ -1,6 +1,6 @@
-package de.niclasl.herobrines_world_api.api.transfer;
+package de.niclasl.herobrines_world_api.transfer;
 
-import de.niclasl.herobrines_world_api.api.transfer.resolver.InventoryResolver;
+import de.niclasl.herobrines_world_api.transfer.resolver.InventoryResolver;
 
 import java.util.ArrayList;
 import java.util.Collections;

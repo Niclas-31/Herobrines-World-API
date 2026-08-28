@@ -1,0 +1,28 @@
+package de.niclasl.herobrines_world_api.registry;
+
+import net.minecraft.resources.Identifier;
+
+import java.util.Collection;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class HWRegistry<T> {
+
+    private final Map<Identifier, T> values = new LinkedHashMap<>();
+
+    public void register(Identifier id, T value) {
+        if (values.containsKey(id)) {
+            throw new IllegalStateException("Duplicate registry id: " + id);
+        }
+
+        values.put(id, value);
+    }
+
+    public T get(Identifier id) {
+        return values.get(id);
+    }
+
+    public Collection<T> values() {
+        return values.values();
+    }
+}

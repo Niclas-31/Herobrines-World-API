@@ -1,4 +1,4 @@
-package de.niclasl.herobrines_world_api.api.leaderboard;
+package de.niclasl.herobrines_world_api.leaderboard;
 
 import java.util.UUID;
 

@@ -1,12 +1,14 @@
-package de.niclasl.herobrines_world_api.api.leaderboard;
+package de.niclasl.herobrines_world_api.leaderboard;
 
 import net.minecraft.resources.Identifier;
 import org.jetbrains.annotations.NotNull;
+
+import java.sql.SQLException;
 
 public interface RewardType {
     @NotNull Identifier id();
 
     int priority();
 
-    void apply(RewardContext context, RewardEntry entry);
+    void apply(RewardContext context, RewardEntry entry) throws SQLException;
 }
