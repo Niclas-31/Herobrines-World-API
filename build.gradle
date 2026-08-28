@@ -102,11 +102,21 @@ publishing {
     publications {
         register('mavenJava', MavenPublication) {
             from components.java
+
+            groupId = project.group
+            artifactId = "herobrines-world-api"
+            version = project.version
         }
     }
     repositories {
         maven {
-            url "file://${project.projectDir}/repo"
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/Niclas-31/Herobrines-World-API")
+
+            credentials {
+                username = project.findProperty("gpr.user")
+                password = project.findProperty("gpr.key")
+            }
         }
     }
 }
