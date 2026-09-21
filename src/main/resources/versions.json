@@ -1,0 +1,23 @@
+{
+  "latest": {
+    "major": 3,
+    "minor": 0
+  },
+  "majors": [
+    {
+      "major": 1,
+      "status": "UNSUPPORTED",
+      "minors": [0]
+    },
+    {
+      "major": 2,
+      "status": "DEPRECATED",
+      "minors": [0]
+    },
+    {
+      "major": 3,
+      "status": "SUPPORTED",
+      "minors": [0]
+    }
+  ]
+}

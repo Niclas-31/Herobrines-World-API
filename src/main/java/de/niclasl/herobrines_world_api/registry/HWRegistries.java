@@ -2,7 +2,7 @@ package de.niclasl.herobrines_world_api.registry;
 
 import de.niclasl.herobrines_world_api.access.AccessMode;
 import de.niclasl.herobrines_world_api.boss.Ability;
-import de.niclasl.herobrines_world_api.boss.BossDefinition;
+import de.niclasl.herobrines_world_api.boss.BossFactory;
 import de.niclasl.herobrines_world_api.leaderboard.RewardType;
 import de.niclasl.herobrines_world_api.structure.StructureAPI;
 import de.niclasl.herobrines_world_api.structure.StructureDefinition;
@@ -13,7 +13,7 @@ public class HWRegistries {
     public static final HWRegistry<AccessMode> ACCESS_MODES = new HWRegistry<>();
     public static final HWRegistry<RewardType> REWARD_TYPES = new HWRegistry<>();
     public static final HWRegistry<StructureDefinition> STRUCTURES = new HWRegistry<>();
-    public static final HWRegistry<BossDefinition> BOSSES = new HWRegistry<>();
+    public static final HWRegistry<BossFactory> BOSSES = new HWRegistry<>();
     public static final HWRegistry<Ability> ABILITIES = new HWRegistry<>();
 
     private static StructureAPI structureAPI;

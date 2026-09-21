@@ -25,4 +25,8 @@ public class HWRegistry<T> {
     public Collection<T> values() {
         return values.values();
     }
+
+    public boolean contains(Identifier id) {
+        return values.containsKey(id);
+    }
 }
