@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/Niclas-31/Herobrines-World-API",
+  "1.21.11": {
+    "1": "Initial release of Herobrines World API",
+    "2": "Leaderboard Entry and Transfer API changed"
+  },
+  "26.2": {
+    "3.0": "Initial release of TeamWar."
+  },
+  "promos": {
+    "1.21.11-latest": "2",
+    "1.21.11-recommended": "2",
+    "26.2-latest": "3.0",
+    "26.2-recommended": "3.0"
+  }
+}
