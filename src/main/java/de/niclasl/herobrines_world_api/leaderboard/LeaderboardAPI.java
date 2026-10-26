@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.UUID;
 
 public interface LeaderboardAPI {
-    List<LeaderboardEntry> getTop(String board, int limit);
+    List<LeaderboardEntry> getTop(int limit);
 
     int getRank(UUID player);
 }

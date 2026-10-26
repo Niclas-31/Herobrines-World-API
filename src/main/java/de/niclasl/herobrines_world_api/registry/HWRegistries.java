@@ -15,6 +15,7 @@ public class HWRegistries {
     public static final HWRegistry<StructureDefinition> STRUCTURES = new HWRegistry<>();
     public static final HWRegistry<BossFactory> BOSSES = new HWRegistry<>();
     public static final HWRegistry<Ability> ABILITIES = new HWRegistry<>();
+    public static final ResolverRegistry RESOLVERS = new ResolverRegistry();
 
     private static StructureAPI structureAPI;
 
