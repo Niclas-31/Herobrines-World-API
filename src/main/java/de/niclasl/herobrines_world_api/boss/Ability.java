@@ -1,6 +1,5 @@
 package de.niclasl.herobrines_world_api.boss;
 
-
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.EntityType;
 import org.jetbrains.annotations.NotNull;
