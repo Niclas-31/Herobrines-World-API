@@ -5,7 +5,7 @@
     "2": "Leaderboard Entry and Transfer API changed"
   },
   "26.2": {
-    "3.0": "Initial release of TeamWar."
+    "3.0": "Boss System and Boss Structures added. Specific Resolvers added."
   },
   "promos": {
     "1.21.11-latest": "2",

@@ -10,12 +10,8 @@ public class ResolverRegistry {
 
   private final Map<Class<?>, List<Resolver<?>>> resolvers = new HashMap<>();
 
-  public <T> void register(Class<T> resolverClass, Resolver<? extends T> resolver) {
-    if (resolvers.containsKey(resolverClass)) {
-      throw new IllegalArgumentException("Resolver already registered: " + resolverClass.getName());
-    }
-
-    resolvers.computeIfAbsent(resolverClass, _ -> new  ArrayList<>()).add(resolver);
+  public <T> void register(Class<T> wrapperType, Resolver<? extends T> resolver) {
+    resolvers.computeIfAbsent(wrapperType, _ -> new  ArrayList<>()).add(resolver);
   }
 
   public <T> T resolve(Class<T> type, ServerLevel level, BlockPos pos) {
